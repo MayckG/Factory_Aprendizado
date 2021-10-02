@@ -1,0 +1,305 @@
+P{
+    /*color:	rgb(250, 248, 248);*/
+    /*font-size: 15px;*/
+    font-family:  Helvetica,Arial ;
+    color:#2E4053;
+
+}
+
+
+
+body{
+    background-color: rgb(250, 248, 248);
+}
+
+
+
+header{
+    background-color:  rgb(250, 248, 248);
+    height: 100px;
+    padding: 1px;
+
+}
+
+footer{
+    clear:both;
+    background-color: rgb(250, 248, 248);
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: #2E4053;
+
+}
+
+h1{
+    color:rgb(250, 248, 248);
+    text-shadow: 1px 1px 1px #2E4053;
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-family: Helvetica,Arial;
+    
+}
+h2{
+    color:rgb(250, 248, 248);
+    text-align: center;
+    margin: 0 0 1px 0;
+    font-family: Helvetica,Arial;
+    padding: 1px;
+}
+
+h5{
+    color:#2E4053;
+    text-align: left;
+    margin: 0 0 1px 0;
+    font-family: Helvetica,Arial;
+    padding: 1px;
+}
+
+
+
+table {
+    margin: 20px auto;
+    width: auto;
+    border:ridge;
+    color:#2E4053 ;
+}
+th, td {
+    border: 1px ridge #2E4053;
+    min-width: 30px;
+    border:ridge;
+}
+#tblTextCenter{
+    text-align: center;
+    color: #2E4053;
+    border-color: #808080;
+    border:ridge;
+    
+}
+#tblTextLeft{
+    text-align: left;
+    color: #2E4053;
+    border-color: #808080;
+    border:ridge;
+    
+    
+}
+#tblTextRight{
+    text-align: right;
+    color: #2E4053;
+    border-color: #808080;
+    border:ridge;
+    
+}
+.error{
+    color:rgb(250, 248, 248);
+    text-shadow: 1px 1px 1px #2E4053;
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-family: Helvetica,Arial;
+}
+
+
+#principal{
+    background-image: url('Imagens/Background_pc.jpg');
+    clear:both;
+    background-size: 100%;
+    min-height: 500px;
+    padding: 1px;
+  
+    
+}
+
+#logo{
+    float:left;
+}
+#menu{
+    margin-top: 20px;
+    float: right;
+}
+
+#menu a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #2E4053;
+    font-size: 10px;
+    
+
+}
+
+#menu a:hover{
+    background-color: #e71414;
+    color: rgb(250, 248, 248);
+    
+
+}
+
+.container{
+    width: 1150px;
+    margin: 0, auto;
+    text-align: center;
+    
+
+}
+.container_login{
+    clear: both;
+    /*width: 99vw;*/
+    height: 140vh;
+    /*background-image: url("http://localhost/imagens/plataforma.jpg");*/
+    background-image: url("/imagens/plataforma.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+/*.container_login{
+    background-image: url("imagens/plataforma2.jpg");
+    background-size: cover;
+    background-color: yellow;
+
+}*/
+.login{
+    
+    width: 210px;
+    height: 260px;
+    background-color: rgba(0,0,0,0.6);
+    float: right;
+
+
+}
+
+
+
+
+.efeito{
+background-color: 0, 0, 0, 0.5;
+padding: 20px 0 20px 0;
+}
+
+.resumo{
+    padding: 1px;   
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    font-size: 18px;
+    width: 400px;
+    margin: 10px;
+    float: left;
+}
+
+form {
+    font-family: Helvetica,Arial;
+    font-size: 12px;
+    /*background-color: 	#F0FFFF;*/
+    max-width: 100px;
+}
+input{
+    width: 150px;
+    padding: 10px;
+    color: #2E4053;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+textarea {
+    width: 218px;
+    padding: 40px;
+    color: #2E4053;
+    margin-left: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #4682B4;
+    background-color: #ADD8E6;
+    color: #2E4053;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #ADD8E6;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #2E4053;
+}/*   */
+
+.pedido{
+    width: 840px;
+    margin: 0, auto;
+    text-align: center;
+
+}
+
+#endereco{
+    margin-top: 1px;
+    float: right;
+}
+#cadastro{
+    margin-top: 1px;
+    float:left;
+
+
+}
+#usuario{
+    clear: both;
+    float: left;
+    color: #2E4053;
+}
+
+.cadastro{
+    width: 1150px;
+    margin: 0, auto;
+    text-align: center;
+    
+   
+
+}
+
+#controle{
+    margin-top: 1px;
+    float:left;
+    
+    
+}
+
+#controle a{
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #2E4053;
+    font-size: 15px;
+    
+
+}
+
+#controle a:hover{
+    background-color: #e71414;
+    color: rgb(250, 248, 248);
+    
+
+}
+
+
+
+#tela{
+    clear:both;
+    margin: 1px;
+    color: #2E4053;
+    
+}
+
