@@ -54,7 +54,6 @@ Mostrar página de erro para ID não esperado OK-->
                                 echo "<a href='index.php?requisicao=painel'>Painel de Controle</a>";
                                 //echo "<a href='index.php?requisicao=cotacao'>Cotação</a>";
                                 echo "<a href='index.php?requisicao=consolidado'>Consolidado</a>";
-                                echo "<a href='index.php?requisicao=pedido'>Pedido</a>";
                                 echo "<a href='index.php?requisicao=meus_pedidos'>Meus Pedidos</a>";
                                 echo "<a href='index.php?requisicao=financeiro'>Financeiro</a>";
                                 //echo "<a href='index.php?requisicao=distribuidora'>Distribuidora</a>";
@@ -66,7 +65,6 @@ Mostrar página de erro para ID não esperado OK-->
                                 echo "<a href='index.php?requisicao=painel'>Painel de Controle</a>";
                                 //echo "<a href='index.php?requisicao=cotacao'>Cotação</a>";
                                 //echo "<a href='index.php?requisicao=consolidado'>Consolidado</a>";
-                                //echo "<a href='index.php?requisicao=pedido'>Pedido</a>";
                                 echo "<a href='index.php?requisicao=meus_pedidos'>Meus Pedidos</a>";
                                 echo "<a href='index.php?requisicao=financeiro'>Financeiro</a>";
                                 //echo "<a href='index.php?requisicao=distribuidora'>Distribuidora</a>";
@@ -78,7 +76,6 @@ Mostrar página de erro para ID não esperado OK-->
                                 echo "<a href='index.php?requisicao=painel'>Painel de Controle</a>";
                                 echo "<a href='index.php?requisicao=cotacao'>Cotação</a>";
                                 echo "<a href='index.php?requisicao=consolidado'>Consolidado</a>";
-                                echo "<a href='index.php?requisicao=pedido'>Pedido</a>";
                                 echo "<a href='index.php?requisicao=meus_pedidos'>Meus Pedidos</a>";
                                 //echo "<a href='index.php?requisicao=financeiro'>Financeiro</a>";
                                 //echo "<a href='index.php?requisicao=distribuidora'>Distribuidora</a>";
@@ -90,7 +87,6 @@ Mostrar página de erro para ID não esperado OK-->
                                 echo "<a href='index.php?requisicao=painel'>Painel de Controle</a>";
                                 echo "<a href='index.php?requisicao=cotacao'>Cotação</a>";
                                 //echo "<a href='index.php?requisicao=consolidado'>Consolidado</a>";
-                                //echo "<a href='index.php?requisicao=pedido'>Pedido</a>";
                                 echo "<a href='index.php?requisicao=meus_pedidos'>Meus Pedidos</a>";
                                 //echo "<a href='index.php?requisicao=financeiro'>Financeiro</a>";
                                 //echo "<a href='index.php?requisicao=distribuidora'>Distribuidora</a>";

@@ -1,6 +1,6 @@
 <?php
 
-    include('fswdd.php'); //fswdd - Funções do Sistema Web Definidas pelo Desenvolvedor
+    include_once('fswdd.php'); //fswdd - Funções do Sistema Web Definidas pelo Desenvolvedor
 
     //Regras de permissão
     //1 = Cliente
@@ -211,7 +211,7 @@
                             <th><label for="cliente_fantasia">Nome Fantasia</label></th>
                         </tr>
                         <tr>
-                            <td><input type="text" id="cliente_cnpj" required="required" name="cliente_cnpj" maxlength=14/></td>
+                            <td><input type="number" id="cliente_cnpj" required="required" name="cliente_cnpj" maxlength=14/></td>
                             <td><input type="text" id="cliente_razao" required="required" name="cliente_razao" maxlength=50/></td>
                             <td><input type="text" id="cliente_fantasia" required="required" name="cliente_fantasia" maxlength=50/></td>
                         </tr>
@@ -224,8 +224,8 @@
                             <th><label for="cliente_regiao">Região</label></th>
                         </tr>
                         <tr>
-                            <td><input type="text" id="cliente_ins_est" required="required" name="cliente_ins_est" maxlength=20/></td>
-                            <td><input type="text" id="cliente_ins_mun" required="required" name="cliente_ins_mun" maxlength=20/></td>
+                            <td><input type="number" id="cliente_ins_est" required="required" name="cliente_ins_est" maxlength=20/></td>
+                            <td><input type="number" id="cliente_ins_mun" required="required" name="cliente_ins_mun" maxlength=20/></td>
                             <td><input type="text" id="cliente_anp" required="required" name="cliente_anp" maxlength=20/></td>
                             <td>
                                 <select name="cliente_regiao" required="required">
